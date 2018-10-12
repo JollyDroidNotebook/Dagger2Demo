@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         getAppComponent().inject(this);
 
         if (preferences.isVisited()) {
-            hello.setText("welcome back");
+            hello.setText("Welcome back!");
 
         } else {
-            hello.setText("Hello, anonymous");
+            hello.setText("Hello, anonymous!");
             preferences.setVisited();
         }
     }
